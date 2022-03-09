@@ -1,4 +1,4 @@
-package com.standalone.jpa;
+package com.sorting.method.jpa;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,8 +9,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.data.domain.Sort;
 
-import com.standalone.jpa.entities.Product;
-import com.standalone.jpa.repository.ProductRepository;
+import com.sorting.method.jpa.entities.Product;
+import com.sorting.method.jpa.repository.ProductRepository;
 
 @SpringBootApplication
 public class Application {
@@ -21,6 +21,7 @@ public class Application {
 
 		/*
 		 * Insert Data in database Product product1 = new
+		 * 
 		 * Product(121,"Mobile","MI","8500","China"); Product product2 = new
 		 * Product(122,"Android Mobile","VIVO","12040","China"); Product product3 = new
 		 * Product(123,"Bike","Bajaj","85000","India"); Product product4 = new
